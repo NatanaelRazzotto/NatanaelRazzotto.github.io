@@ -1,0 +1,89 @@
+*{margin: 0; padding: 0; box-sizing: border-box;}
+
+header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding: 9px 0;
+    text-align: center;
+    background: #333333;
+
+}
+header li{
+    display: inline-block;
+    margin: 0 10px;
+}
+header a{
+    text-decoration: none;
+    color: orange;
+}
+body {
+    background-color: #1E1E1E;
+    text-align: center;
+    padding: 0;
+    margin: 0 0 0 0;
+    font-family: system-ui
+}
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+section.content {
+    margin-top: 85px;
+}
+.conteudo{
+    height: 2000px;
+    padding: 40px 0px 0px 0px;
+    color: orange;
+}
+.logoimg{
+    width: 280px; 
+    height: 38px;
+    margin: 10px 0px 0px 0px;
+}
+.divlogo{
+    text-align: left; 
+    width:40%;
+    position: relative;
+    left: 5%;
+    top: 40%;
+
+}
+.itensMenus
+{
+    text-align: right; 
+    width: 40%;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+}
+.banner{
+    background:orange;
+    height: 320px;
+    padding: 0px 0px 320px 0px;
+    border-radius: 40px 20px 40px 20px;
+    color: aliceblue;
+    width: 100%;
+
+}
+.subbannerEsq
+{
+    width: 70%;
+    float: left;
+    display: inline-block;
+    background:  #0C0C0C;
+    top: auto;
+    height: 320px;
+    border-radius: 38px 0px 300px 18px;
+    padding: 80px 0px 0px 0px;
+}
+.subbannerDir
+{
+    width: 30%; 
+    float: right;
+    display: inline-block; 
+    padding: 20px 0px 0px 0px;
+}
