@@ -8,6 +8,16 @@ $(document).ready(function(){
             $('.navbar').removeClass("sticky");
            console.log('dsad')
         }
+        if(this.scrollY > 500)
+        {
+            $('.scrool-up-btn').addClass("show")
+        }else{
+            
+            $('.scrool-up-btn').removeClass("show")
+        }
+    });
+    $('.scrool-up-btn').click(function(){
+        $('html').animate({scrollTop:0});
     });
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
