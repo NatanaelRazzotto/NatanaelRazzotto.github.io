@@ -263,7 +263,7 @@ section .title::after{
 .services .title::after,
 .teams .title::after{
     background: #111;
-    content: "Que Ofereço";
+    content: "Minhas Experiências";
 }
 
 .services .serv-content .card{
@@ -306,7 +306,7 @@ section .title::after{
 }
 /* sessão paginas */
 .teams .title::after{
-    content: "Outros topicos";
+    content: "Com Certificado e Sem Certificado";
 }
 .teams .carousel .card{
     background: #222;

@@ -32,6 +32,12 @@ $(document).ready(function(){
         backSpeed:60,
         loop:true
     }) 
+    var typed3 = new Typed(".typing-3", {
+        strings:["Bacharel em Sistemas de Informação","de 2018 à 2022","na UNIBRASIL"],
+        typeSpeed:100,
+        backSpeed:60,
+        loop:true
+    }) 
 
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
