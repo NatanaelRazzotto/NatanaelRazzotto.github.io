@@ -19,6 +19,20 @@ $(document).ready(function(){
     $('.scrool-up-btn').click(function(){
         $('html').animate({scrollTop:0});
     });
+
+    var typed = new Typed(".typing", {
+        strings:["Desenvolvedor de Sistemas","Desenvolvedor Full Stack","Desenvolvedor C#", "Desenvolvedor Java", "Desenvolvedor Angular", "Fotógrafo"],
+        typeSpeed:100,
+        backSpeed:60,
+        loop:true
+    }) 
+    var typed2 = new Typed(".typing-2", {
+        strings:["Desenvolvedor Full Stack","Desenvolvedor C#", "Desenvolvedor Java", "Desenvolvedor Angular", "Desenvolvedor Python"],
+        typeSpeed:100,
+        backSpeed:60,
+        loop:true
+    }) 
+
     $('.menu-btn').click(function(){
         $('.navbar .menu').toggleClass("active");
         $('.menu-btn i').toggleClass("active");
