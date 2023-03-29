@@ -21,13 +21,13 @@ $(document).ready(function(){
     });
 
     var typed = new Typed(".typing", {
-        strings:["Desenvolvedor de Sistemas","Desenvolvedor Full Stack","Desenvolvedor C#", "Desenvolvedor Java", "Desenvolvedor Angular", "Fotógrafo"],
+        strings:["Natanael Razzotto","um Desenvolvedor de Sistemas","um Fotógrafo", "um Filmaker","um Entusiasta"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
     }) 
     var typed2 = new Typed(".typing-2", {
-        strings:["Desenvolvedor Full Stack","Desenvolvedor C#", "Desenvolvedor Java", "Desenvolvedor Angular", "Desenvolvedor Python"],
+    strings:["NRFv","WTBus","JB"],
         typeSpeed:100,
         backSpeed:60,
         loop:true
