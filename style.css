@@ -308,6 +308,9 @@ section .title::after{
 .teams .title::after{
     content: "Com Certificado e Sem Certificado";
 }
+.card{
+    color: white;
+}
 .teams .carousel .card{
     background: #222;
     border-radius: 6px;
